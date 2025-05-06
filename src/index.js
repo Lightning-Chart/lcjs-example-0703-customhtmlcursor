@@ -62,7 +62,8 @@ html.style.borderRadius = '3px'
 html.style.pointerEvents = 'none'
 html.style.transition = 'opacity 0.5s'
 html.style.transform = 'translateY(-100%)'
-chart.setCustomCursor((_, hit) => {
+chart.setCustomCursor((event) => {
+    const { hit } = event
     if (hit) {
         html.style.opacity = '1.0'
         const locClient = chart.translateCoordinate(hit, chart.coordsAxis, chart.coordsClient)
