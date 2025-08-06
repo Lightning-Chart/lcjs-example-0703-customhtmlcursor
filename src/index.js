@@ -21,6 +21,7 @@ const chart = lightningChart({
             resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
         })
     .ChartXY({
+        legend: { visible: false },
         defaultAxisX: { type: 'linear-highPrecision' },
         theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
     })
@@ -33,7 +34,7 @@ chart.getDefaultAxisX().setTickStrategy(AxisTickStrategies.DateTime)
 chart.getDefaultAxisY().setTitle('Stock price variation €')
 
 // Generate data and create the series.
-const series = chart.addPointLineAreaSeries({ dataPattern: 'ProgressiveX' }).setAreaFillStyle(emptyFill).setPointerEvents(false)
+const series = chart.addLineSeries().setPointerEvents(false)
 
 createProgressiveTraceGenerator()
     .setNumberOfPoints(20)
@@ -46,7 +47,7 @@ createProgressiveTraceGenerator()
         })),
     )
     .then((data) => {
-        series.add(data)
+        series.appendJSON(data)
     })
 
 // ::: Custom HTML cursor :::
