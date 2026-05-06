@@ -82,16 +82,16 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2026. All rights reserved.
 
 
-[Lightning Chart top reference]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/interfaces/LightningChart.html
-[Auto cursor modes]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/interfaces/ChartWithCursor.html#setCursorMode
-[Axis tick strategies]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/variables/AxisTickStrategies.html
-[UI element builders]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/variables/UIElementBuilders.html
-[UI layout builders]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/variables/UILayoutBuilders.html
-[UI backgrounds]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/variables/UIBackgrounds.html
-[UI position origin]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/variables/UIOrigins.html
-[Color factory hexadecimal]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/functions/ColorHEX.html
-[Solid fill style]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/classes/SolidFill.html
-[Solid line style]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/classes/SolidLine.html
-[Chart XY]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/classes/ChartXY.html
-[Axis XY]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/classes/Axis.html
+[Lightning Chart top reference]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/interfaces/LightningChart.html
+[Auto cursor modes]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/interfaces/ChartWithCursor.html#setCursorMode
+[Axis tick strategies]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/variables/AxisTickStrategies.html
+[UI element builders]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/variables/UIElementBuilders.html
+[UI layout builders]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/variables/UILayoutBuilders.html
+[UI backgrounds]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/variables/UIBackgrounds.html
+[UI position origin]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/variables/UIOrigins.html
+[Color factory hexadecimal]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/functions/ColorHEX.html
+[Solid fill style]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/classes/SolidFill.html
+[Solid line style]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/classes/SolidLine.html
+[Chart XY]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/classes/ChartXY.html
+[Axis XY]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/classes/Axis.html
 
